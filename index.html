@@ -1,0 +1,24 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>Play with React</h1>
+
+        <!--
+          Here we have some containers to host React
+          components on an existing page
+        -->
+        <div id="like_button_container"></div>
+        <div id="my_autosuggest_container"></div>
+
+          <!-- Load React and Rect based libraries -->
+          <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+        <script src="./node_modules/react-autosuggest/dist/dist/standalone/autosuggest.js"></script>
+
+        <!-- These files contain the custom React components -->
+        <script src="like_button.js"></script>
+        <script src="my_autosuggest.js"></script>
+    </body>
+</html>
